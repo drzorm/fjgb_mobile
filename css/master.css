@@ -1,0 +1,52 @@
+body { background: #fff;}
+body.ui-mobile-viewport { padding: 0; }
+body, input, textarea, select, button ,a,div{ font-family:微软雅黑; font-size:12px; font-weight:normal }
+.ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+ text-shadow:none; 
+}
+
+.fl {float:left}
+.fr {float:right}
+.clearfix:after {content:".";display:block;height:0;clear:both;overflow:hidden}
+.clr {clear:both}
+.hidden {display:none!important}
+
+#righttoppanel{position:absolute;right:0px;top:20px;}
+
+#wrapper_menu {	position:absolute; z-index:1;top:0; left:0;width:100%;overflow-x:auto;overflow-y:none;}
+#scroller_menu {width:850px;height:30px;float:left;	padding:0; overflow-y:none;}
+#scroller_menu ul {list-style:none;display:block;float:left;width:100%;	height:100%;padding:0;margin:0;	text-align:left;}
+#scroller_menu li {display:block;vertical-align:middle;float:left;padding:0 10px;width:80px;height:100%;	border-right:1px solid #3D84C4;; text-align:center; line-height:30px;}
+#scroller_menu li a{display:block;color:#fff; text-decoration:none;font-size:1.25em;  width:100%; height:30px;}
+#scroller_menu li a:hover{color:#FF0}
+#scroller_menu .linkon{color:#FF0}
+
+
+#product{ position:relative;width:100%; height:125px;}
+#product_pic{position:absolute; z-index:1;top:10px; left:0;width:100%;overflow-x:auto;overflow-y:none;}
+#product_scoll_pic {width:2400px;height:125px;float:left;padding:0;}
+#product_scoll_pic ul {list-style:none;display:block;float:left;	width:100%;	height:100%;padding:0;margin:0;	text-align:left;}
+#product_scoll_pic li {display:block;vertical-align:middle;float:left;padding:0 10px;width:180px;height:100%; text-align:center }
+
+/*header style*/
+#top {text-align:center; width:100%;  }
+#logo{ text-align:center; padding:15px; height: 50px;}
+#menu{ position:relative;width:100%;  background-color: #5A9CD7; height:30px; border-bottom:5px solid #3D84C4;}
+#menu a{ font-family:微软雅黑}
+
+#content{width:100%; }
+
+.context{  width:100%; line-height:200%;}
+.context p{ /*padding-bottom:15px;*/ margin: auto 8px; font-size: 14px; text-indent: 28px; line-height:200%; }
+.context h1{ padding:5px; font-size:14px; /*font-weight:bold;*/color:#fff;width:100%;  background-color: #5A9CD7; font-family:微软雅黑}
+ 
+.context h1 span{  padding-right:10px;}
+.context .c{ padding:15px;}
+@media all and (max-width: 480px){
+.context img{width:100%;}
+}
+
+.newslist{width:100%; padding:5px}
+.newslist a{float:left;width:100%;padding:5px; color:#494949;text-decoration:none;}
+.newslist a:hover{color:#F60; text-decoration:underline}
+.newslist a span{ /*background:url(/img/sliderArrowsBg.png)*/ no-repeat 0px 7px; height:25px; width:15px ; float:left;}

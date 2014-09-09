@@ -1,0 +1,21 @@
+/* banner  */
+#banner{ width:100%; position:relative; left:0; top:0;}
+#banner .photo{ width:100%; overflow:hidden; position:relative;}
+#banner .photo ul{ padding: 0; margin: 0;}
+#banner .photo ul li{ display:none; -webkit-animation:change .3s;}
+#banner .photo ul li.on{ display:block;}
+#banner .photo ul li img{ width:100%;}
+#banner .pre,.wrap .pre{ width:5%; position:absolute; top:40%; left:2%; z-index:11;}
+#banner .next,.wrap .next{ width:5%; position:absolute; top:40%; right:2%; z-index:11;}
+#banner .next img,#banner .pre img{ width:100%;}
+#banner .phone{ font-size:1em; color:#fff; background:#386fc0; height:2em; padding:4%; line-height:1.2em;}
+#banner .phone p{ padding-left:50%;}
+#banner .logo{ width:40%; position:absolute; bottom:-2%; left:5%;}
+#banner .logo img{ width:100%;}
+
+
+
+/*0618*/
+#banner_cir{ position:absolute; left:0; bottom:10%;}
+#banner_cir a{ display:block; float:left; display:inline; width:10px; height:10px; margin-right:10px; background:#666; -webkit-border-radius:5px;}
+#banner_cir a.on{ background:#386fc0;}
